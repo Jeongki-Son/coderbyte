@@ -1,6 +1,6 @@
 def LetterCapitalize(str)
 
- a = str.split.map(&:capitalize).join(' ')
+ a = str.split.map(&:capitalize).join(' ') # 각각의 array의 요소에 XXX 하라는 것이 &:
  # code goes here
   return a
          
